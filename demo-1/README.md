@@ -1,3 +1,4 @@
+## Launching
 Run locally by navigating to inside app/ folder and running:
 ```sh
 node app.js
