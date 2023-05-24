@@ -1,6 +1,10 @@
-to be use on cpu
+not working!
+
+to be used on cpu
 
 ```
-python3 oasst_api.py
+python3 chat_oasst_api.py
 
 ```
+Reference video
+https://www.youtube.com/watch?v=kkTNg_UOCNE

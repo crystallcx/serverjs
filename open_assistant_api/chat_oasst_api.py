@@ -19,3 +19,7 @@ history = ""
 while True: 
     inp = input(">>> ")   
     context = history + USERTOKEN + inp + ENDTOKEN + ASSISTANTTOKEN
+    output = prompt(context)
+    history = output
+    just_latest_asst_out = output.split(ASSISTANTTOKEN)[-1].split(ENDTOKEN)[0]
+    print(colorama.Fore.GREEN + just_latest_asst_out + colorama.Style.RESET_ALL)
