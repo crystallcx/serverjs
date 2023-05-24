@@ -3,6 +3,8 @@ not working!
 to be used on cpu
 
 ```
+python3 oasst_api.py
+
 python3 chat_oasst_api.py
 
 ```
