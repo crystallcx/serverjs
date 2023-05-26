@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 
-MODEL_NAME = "OpenAssistant/osst-sft-4-pythia-12b-epoch-3.5"
+MODEL_NAME = "OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
